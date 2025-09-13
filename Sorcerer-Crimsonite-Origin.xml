@@ -1,0 +1,135 @@
+<archetype name="7 Crimsonite Paths" type="Sorcerous Origin" source="Homebrew" id="ID_SORCERER_SUBCLASS_7_CRIMSONITE_PATHS">
+    <description>
+<p><b>Crimsonite Paths — Negative Energy Costs</b></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Path</th>
+                    <th>Cost</th>
+                    <th>Duration</th>
+                    <th>Effect</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lust</td>
+                    <td>3 NE</td>
+                    <td>3 Turns</td>
+                    <td>Summon rabbits for attack, mirage, or defense.</td>
+                </tr>
+                <tr>
+                    <td>Gluttony</td>
+                    <td>2–5 NE</td>
+                    <td>Instant</td>
+                    <td>Summon rabbit to restore health in 5ft radius.</td>
+                </tr>
+                <tr>
+                    <td>Greed</td>
+                    <td>6 NE</td>
+                    <td>3 Turns</td>
+                    <td>Summon scout rabbit to locate treasure or signs.</td>
+                </tr>
+                <tr>
+                    <td>Sloth</td>
+                    <td>4 NE</td>
+                    <td>Concentration (:3)</td>
+                    <td>Rideable rabbit substitutes for short rest, replenishes 4 NE if uninterrupted.</td>
+                </tr>
+                <tr>
+                    <td>Envy</td>
+                    <td>7 NE &amp; 10% HP</td>
+                    <td>Concentration (:3)</td>
+                    <td>Summon rabbit that strips an enemy ability if it pierces skin.</td>
+                </tr>
+                <tr>
+                    <td>Pride</td>
+                    <td>3 NE</td>
+                    <td>5 Turns</td>
+                    <td>Summon massive rabbit providing full cover, scaling HP.</td>
+                </tr>
+                <tr>
+                    <td>Wrath</td>
+                    <td>Max NE &amp; 99% HP</td>
+                    <td>7 Turns</td>
+                    <td>Summon Venus, a giant rabbit of escalating power. Includes Slice and Sautéi techniques.</td>
+                </tr>
+            </tbody>
+        </table>
+    </description>
+
+    <feature name="Negative Energy System" level="1" id="ID_SORCERER_SUBCLASS_FEATURE_NEGATIVE_ENERGY_SYSTEM">
+        <description>
+            <p>You gain access to a new resource called Negative Energy (NE). NE begins at 7ne and increases by 3ne every level.</p>
+            <p>Some of your features require spending NE to activate. If a feature notes both NE and health cost, you must pay both.</p>
+        </description>
+    </feature>
+
+    <feature name="Lust" level="1" id="ID_SORCERER_SUBCLASS_FEATURE_LUST">
+        <description>
+            <p><b>Cost:</b> 3 NE<br/>
+            <b>Cast Time:</b> 1 Turn<br/>
+            <b>Range:</b> 45 ft<br/>
+            The user summons a hoard of rabbits that can be used for attack, mirage, or defense. All rabbits do 1 bludgeoning damage and have 1hp and ac. They can last for as long as 3 turns unless killed or unsummoned directly by the user. If unsummoned, the user keeps 1ne.</p>
+        </description>
+    </feature>
+
+    <feature name="Gluttony" level="2" id="ID_SORCERER_SUBCLASS_FEATURE_GLUTTONY">
+        <description>
+            <p><b>Cost:</b> 2 to 5 NE<br/>
+            <b>Cast Time:</b> Instant<br/>
+            <b>Range:</b> 5 ft<br/>
+            The user summons a rabbit, depending on the die roll, the rabbit will either be small, medium or big. Depending on the size of the rabbit, that's however much health the user will restore to anyone within 5ft. This amount will always be proportionate to the amount of NE spent on the summoning. (max of 5ne)</p>
+        </description>
+    </feature>
+
+    <feature name="Greed" level="3" id="ID_SORCERER_SUBCLASS_FEATURE_GREED">
+        <description>
+            <p><b>Cost:</b> 6 NE<br/>
+            <b>Cast Time:</b> Instant<br/>
+            <b>Range:</b> 60 ft<br/>
+            The user summons a rabbit to scope out the area for any treasure or hidden signs that could lead to anything valuable. If this rabbit dies, the user won't know unless directly seen dying, rabbit cannot be unsummoned and can only be killed or unsummon naturally after 3 turns.</p>
+        </description>
+    </feature>
+
+    <feature name="Sloth" level="4" id="ID_SORCERER_SUBCLASS_FEATURE_SLOTH">
+        <description>
+            <p><b>Cost:</b> 4 NE<br/>
+            <b>Cast Time:</b> :3<br/>
+            The user summons a giant rabbit, in which they can ride on. This requires focus and the rabbit will always know where the user will want to go, being a substitute for a short rest. If uninterrupted, the user can replenish 4ne. This can be used on teammates as a substitutionary short rest.</p>
+        </description>
+    </feature>
+
+    <feature name="Envy" level="5" id="ID_SORCERER_SUBCLASS_FEATURE_ENVY">
+        <description>
+            <p><b>Cost:</b> 7 NE and 10% of Health<br/>
+            <b>Cast Time:</b> :3<br/>
+            The user suddenly gets REALLY spiteful of the nearest enemy, and summons a rabbit behind them if applicable. If the rabbit bites them and pierces through skin one of their abilities will get stripped from them. If I can't have it, no one can.</p>
+            <p>If the rabbit fails to pierce their skin, it will go to a different target, and repeat this cycle. (cannot hit a target that is not an enemy)</p>
+        </description>
+    </feature>
+
+    <feature name="Pride" level="6" id="ID_SORCERER_SUBCLASS_FEATURE_PRIDE">
+        <description>
+            <p><b>Cost:</b> 3 NE<br/>
+            <b>Duration:</b> 5 Turns<br/>
+            The user creates a FAT ass bunny, one that can count as full cover for a medium humanoid. This FAT FUCK has 2d8 hp, adding 1d8 every level. He fades away if not killed after 5 turns.</p>
+        </description>
+    </feature>
+
+    <feature name="Wrath" level="7" id="ID_SORCERER_SUBCLASS_FEATURE_WRATH">
+        <description>
+            <p>Wrath - MaxNE and 99% Of Health | 7 Turns 
+            The user is put into a critical yet invulnerable state for one turn while in a summoning stance, summoning a rabbit wrapped in a string like material. This material will dissipate over the span of one round turn. The user is only invulnerable on their turn so protect them while in this state! After one round turn, the giant rabbit (Venus) will become active, targeting the strongest enemy.</p>
+
+            <p>Venus has 100hp, 19AC and does 2d10 bludgeoning or slashing per hit. This die increases per 2 turns maxing out at 8d10 on the last turn Venus is summoned for.</p>
+
+            <p>If interrupted while in the vulnerable state, the user will be one tapped, and the summoning will cancel. After Venus is summoned, the user cannot use any abilities and is on critical HP, if the user dies before the 7th next turn, Venus will unsummon. If Venus dies via enemy, the user replenishes 1d8 hp. If Venus unsummons naturally, the user replenishes 2d8 hp.</p>
+
+            <p>Slice costs 1ne and 1hp per slice
+            When swiping your hand in a cutting motion, you create invisible slices that can cut through most materials, doing 2d10 slashing to anything that it comes in contact with.  The user hurts itself while doing this, so consecutive slashes are not recommended</p>
+
+            <p>Sautéi - MaxNE 50% Of Health
+            When the user throws out their hand, they create a checkerboard pattern of invisible slices, doing 4d8 slicing to anything that comes in its way. This damages the user heavily, scarring up their hand and arm. You can tell how much a person has used this move.</p>
+        </description>
+    </feature>
+</archetype>
