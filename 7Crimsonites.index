@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="1.0">
+      <file name="7Crimsonites.index" url="https://github.com/trptyt/Crimsonite-Sourcerer-Subclass/blob/7Crimsonites.index" />
+    </update>
+  </info>
+  <files>
+    <file name="Sorcerer-Crimsonite-Origin.xml" url="https://github.com/trptyt/Crimsonite-Sourcerer-Subclass/blob/main/Sorcerer-Crimsonite-Origin.xml" />
+  </files>
+</index>
